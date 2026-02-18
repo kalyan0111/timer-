@@ -1,0 +1,118 @@
+/* Write your CSS here */
+.Container {
+  min-height: 100vh;
+  background-size: cover;
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading {
+  color: #1e293b;
+}
+
+.card-container {
+  display: flex;
+}
+
+.time-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  height: 50vh;
+  width: 50vh;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.running-container {
+  background-color: #ffffff;
+  padding: 30px;
+  height: 20vh;
+  width: 20vh;
+  border-radius: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer {
+  margin: 0;
+  color: #00d9f5;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.timer-para {
+  margin: 0;
+  font-weight: bold;
+}
+
+.tools-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-pause-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.start-image {
+  height: 5vh;
+}
+
+.start-para {
+  font-weight: bold;
+  font-size: 30px;
+  padding: 0px 10px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.set-heading {
+  font-weight: bold;
+}
+
+.limit-container {
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
+.limit-symbols {
+  font-size: 25px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.limit-number {
+  padding: 10px 30px;
+  margin: 10px;
+  background-color: #00d9f5;
+  font-weight: bold;
+  font-size: 25px;
+  border-radius: 10px;
+}
