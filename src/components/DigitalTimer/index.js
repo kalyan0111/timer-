@@ -111,8 +111,7 @@ class DigitalTimer extends Component {
       ? 'https://assets.ccbp.in/frontend/react-js/pause-icon-img.png'
       : 'https://assets.ccbp.in/frontend/react-js/play-icon-img.png'
     const imageAlt = start ? 'pause icon' : 'play icon'
-    const decreaseButton = {activeLimit: 'this.onDecrease'}
-    const increaseButton = {activeLimit: 'this.onIncrease'}
+
     return (
       <div className="Container">
         <h1 className="heading">Digital Timer</h1>
